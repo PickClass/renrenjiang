@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <p class="read-the-docs">
-        Click on the WXT and Solid logos to learn more
+        人人讲视频旋转修改
       </p>
     </>
   );
