@@ -1,0 +1,7 @@
+
+.rotate_tool{
+    position: relative;
+    z-index: 99;
+    transform: translateY(-123%);
+}
+
