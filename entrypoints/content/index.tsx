@@ -25,10 +25,8 @@ export default defineContentScript({
         onMount: (container) => {
           ctx.setTimeout(() => {
             storage.getItem<number>('local:rotate').then((count) => {
-              setVideoRotate(count)
-              setRotate(count)
-              console.log(count);
-              
+              setVideoRotate(count ?? 0)
+              setRotate(count ?? 0)
             })
           }, 1000)
           createEffect(() => {
